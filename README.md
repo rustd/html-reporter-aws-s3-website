@@ -10,6 +10,7 @@ Example workflow file [html-reporter-s3-website](https://github.com/PavanMudigon
 
 ## Usage
 
+
 ### `main.yml` Example
 
 Place in a `.yml` file such as this one in your `.github/workflows` folder. [Refer to the documentation on workflow YAML syntax here.](https://help.github.com/en/articles/workflow-syntax-for-github-actions)
