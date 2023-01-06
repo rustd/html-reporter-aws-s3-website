@@ -22,8 +22,8 @@ jobs:
         id: test-report
         with:
           report_url: http://${{ secrets.AWS_S3_BUCKET }}.s3-website-${{ secrets.AWS_REGION }}.amazonaws.com
-          playwright_results: test-results
-          playwright_history: playwright-history
+          test-results: test-results
+          #playwright_history: playwright-history
           keep_reports: 2
           args: --acl public-read --follow-symlinks
         env:
